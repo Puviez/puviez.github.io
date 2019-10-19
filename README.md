@@ -6,6 +6,7 @@
 * [Potential Additions](https://github.com/Puviez/puviez.github.io#Potential-Additions)
 * [Link to Site](https://github.com/Puviez/puviez.github.io#Link-to-Site)
 ### About
+![Game Screenshot](https://github.com/Puviez/puviez.github.io/blob/master/Game%20Screenshot.png)
 Droppy Balls is a browser based game built with Javascript. The player aims to avoid balls that bounce randomly within the game screen, earning points for each second that they stay alive. The game ends when the player has been hit by a ball. The player can select from 4 difficulty options, with each providing an increasing number of balls on screen and a higher points earn rate. 
 
 No installation or download required.
