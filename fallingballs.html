@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Project Droppy Balls</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="balls.css">
+    <link href="https://fonts.googleapis.com/css?family=Cabin+Sketch&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <div class="title">DROPPY BALLS</div>
+        <div class="menu">
+            <div id="play" class="menuitem">Play Game</div>
+            <div id="diff" class="menuitem">Difficulty</div>
+            <div id="instr" class="menuitem">Instructions</div>
+            <div id="records" class="menuitem">High Scores</div>
+            <div id="easy" class="diffopt">Easy</div>
+            <div id="med" class="diffopt">Medium</div>
+            <div id="hard" class="diffopt">Hard</div>
+            <div id="extreme" class="diffopt">Extreme</div>
+        </div>
+        <canvas id="space" width="800" height="500"></canvas>
+        <div class="results">
+            <div id="gameover" class="resultsitem">Game Over!</div>
+            <div id="points" class="resultsitem"></div>
+            <input type="text" name="score" placeholder="Enter Name" id="name" class="resultsitem">
+            <input type="submit" name="submit" value="Send Score" id="submit" class="resultsitem">
+        </div>
+        <div class="scorelist">
+            <div class="scoreitem"></div>
+            <div class="scoreitem"></div>
+            <div class="scoreitem"></div>
+            <div class="scoreitem"></div>
+            <div class="scoreitem"></div>
+        </div>
+        <div class="rules">
+            <div id="mainrule">INSTRUCTIONS</div>
+            <div>Avoid the balls for as long as possible!</div>
+            <div><- & -> Arrow Keys to Move</div>
+            <div>The higher the difficulty the more balls there are on screen (and the more points you get for staying alive)</div>
+        </div>
+        <div id="back" class="diffopt"> <- Back</div>
+    </div>
+    <script type="text/javascript" src="balls.js"></script>
+</body>
+</html>
